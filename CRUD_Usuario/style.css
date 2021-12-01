@@ -1,0 +1,103 @@
+@media screen and (min-width: 400px){
+	body{
+		font-family: 'Gill Sans MT Condensed';
+		font-size: 25px;
+	}
+
+	a {
+		display: inline-block;
+		position: relative;
+		color: #333;
+		text-decoration: none;
+			outline: none;
+			color: dodgerblue;
+		}
+		a:after {
+		content: "";
+		display: block;
+		margin: auto;
+		height: 2px;
+		width: 0px;
+		transition: all .8s;
+			outline: none;
+			text-decoration: none;
+			color: royalblue;
+		}
+		a:hover:after {
+		width: 100%;
+		background: royalblue;
+		}
+
+hr{
+	font-size: 30px;
+	font-style: normal;
+}
+
+form{
+	font-family: "Gill Sans MT Condensed";
+	color: dimgray;
+	font-size: 25px;
+  }
+  ::selection {
+	background: SteelBlue;
+	color: white;
+  }
+
+  .cajas{
+	background-color: lightgray;
+	font-family: "Gill Sans MT Condensed";
+	text-align: center;
+	color: rgb(84, 101, 158);
+	width: 200px;
+	height: 40px;
+	border-color: rgb(43, 43, 106);
+	font-size: 23px;  
+	border-radius: 6.5px;
+  } ::selection {
+	background: SteelBlue;
+	color: white;
+	border-radius: 6.5px;
+  }
+  .cajas:hover{
+	background-color: silver;
+	border-radius: 6.5px;
+  }
+
+  .btnN{
+	font-family: "Gill Sans MT Condensed";
+	font-size: 27px;
+	border: outset;
+	border-radius: 40px;
+	  width: 170px; height: 40px;
+	  border-width: 3px;
+	  border-color: royalblue;
+	  background-color: dodgerblue;
+	  color: white;
+  }
+  .btnN:hover{
+	background-color: indianred;
+	border-color: lightcoral;
+  }
+
+img{
+	border: none;
+	width: 100px;
+	height: 100px;
+}
+
+.ok{
+	background-color: #58D68D ;
+	color: white;
+	font-family: 'Gill Sans MT Condensed';
+	font-size: 30px;
+	text-align: center;
+}
+
+.okcomputeroknotok{
+	background-color: #E74C3C;
+	color: white;
+	font-family: 'Gill Sans MT Condensed';
+	font-size: 30px;
+	text-align: center;
+}
+}

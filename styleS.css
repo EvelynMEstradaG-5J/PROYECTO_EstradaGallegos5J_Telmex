@@ -1,0 +1,278 @@
+@media screen and (min-width: 400px){
+	header{
+		position: fixed;
+		float: center;
+		width: 98%;
+		background-color: #1C2833;
+		text-align: center;
+		color: white;
+	}
+	
+	nav a{
+		  text-decoration:none;
+		  color: white;
+		  font-family: Gill Sans MT Condensed;
+		  font-size: 18px;
+		  width: 100%;
+		  }
+			  
+	nav li {
+		  display:inline-block;
+		  width: 175px;
+		  height: 30px;
+		  padding: 10px;
+		  /**/
+		  background-color: #1C2833;
+		  border:none;
+		  text-align:center;
+		  color:#3498DB;
+		  position:relative;
+	}
+				
+	nav li:hover{
+		  background-color:#1C2833;
+		  color: #3498DB;
+		  }
+				
+	nav li > ul{
+		  display:none;
+	left: 100px;
+		
+		  }
+	
+	nav li:hover> ul{
+		  display:block;
+		  position:absolute;
+		  top:30px;
+		  left:10px;
+	}
+	
+	
+	body{
+	  font-family: "Gill Sans MT Condensed";
+	  color: dimgray;
+	  background-color: #EAF2F8;
+	  font-size: 23px;
+	}
+	::selection {
+	  background: steelblue;
+	  color: white;
+	}
+	
+	a {
+	display: inline-block;
+	position: relative;
+	color: #333;
+	text-decoration: none;
+		outline: none;
+		text-decoration: none;
+		color: dodgerblue;
+	}
+	a:after {
+	content: "";
+	display: block;
+	margin: auto;
+	height: 2px;
+	width: 0px;
+	transition: all .8s;
+		outline: none;
+		text-decoration: none;
+		color: royalblue;
+	}
+	a:hover:after {
+	width: 100%;
+	background: royalblue;
+	}
+	
+	section{
+		margin: 0px;
+	}
+	
+	.titulo{
+		font-family: "Gill Sans MT Condensed";
+		color: dodgerblue;
+		font-size: 27px;
+	}
+	
+	.div1{
+		float: left;
+		width: calc(100%/4);
+		height: 1500px;
+		margin-right: 10px;
+		border-right: 5px solid lightgray;
+	}
+	
+	.div2{
+		margin-left: 120px;
+		margin-right: 120px;
+	}
+	
+	.div3{
+		float: right;
+		width: calc(100%/4);
+		height: 1500px;
+		border-left: 5px solid lightgray;
+		height: all;
+	}
+	
+	footer{
+		clear: both;
+		background-color: #1C2833;
+		width: 99%;
+		height: auto;
+		text-align: center;
+		color: white;
+	}
+	
+	p{
+		columns: 3;
+		text-align: justify;
+		text-align: center;
+	}
+	
+	.servHogar{
+		width: 124; height: 124;
+	}
+	
+	.negocioDig{
+		width: 242; height: 304;
+		border-radius: 30px;
+	}
+	
+	.adicionales{
+		width: 464; height: 232;
+		border-radius: 30px;
+	}
+	
+	.cobertura{
+		width: 200; height: 156;
+		float: right;
+		margin-right: 70px;
+	}
+	
+	.tAire{
+		width: 200; height: 216;
+		float: right;
+		margin-right: 50px;
+	}
+	
+	.videoconferencia{
+		width: 200; height: 216;
+		float: right;	
+	}
+
+	.verif {
+		display: none;
+		}
+	body{
+	  background-color: white;
+	  width: auto;
+	}
+	
+	div{
+	  font-family: "Gill Sans MT Condensed";
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+	
+	form{
+	  font-family: "Gill Sans MT Condensed";
+	  color: dimgray;
+	  font-size: 25px;
+	}
+	::selection {
+	  background: SteelBlue;
+	  color: white;
+	}
+
+	.cajas{
+	  background-color: lightgray;
+	  font-family: "Gill Sans MT Condensed";
+	  text-align: center;
+	  color: royalblue;
+	  width: 300px;
+	  height: 40px;
+	  border-color: darkblue;
+	  font-size: 25px;  
+	  border-radius: 6.5px;
+	} ::selection {
+	  background: SteelBlue;
+	  color: white;
+	  border-radius: 6.5px;
+	}
+	.cajas:hover{
+	  background-color: silver;
+	  border-radius: 6.5px;
+	}
+	
+	.comentarios{
+	  background-color: lightgray;
+	  font-family: "Gill Sans MT Condensed";
+	  color: coral;
+	  width: 400px;
+	  height: 100px;
+	  border-color: coral;
+	  text-align: center;
+	  font-size: 25px;
+	  border-radius: 6.5px;
+	}
+	::selection {
+	  background: SteelBlue;
+	  color: white;
+	  border-color: coral;
+	  border-radius: 6.5px;
+	}
+	.comentarios:hover{
+	  background-color: silver;
+	  border-color: coral;
+	  border-radius: 6.5px;
+	}
+	.comentarios:focus{
+	  background-color: silver;
+	  border-color: coral;
+	  border-radius: 6.5px;
+	}
+
+	.btn{
+	  font-family: "Gill Sans MT Condensed";
+	  font-size: 27px;
+	  border: outset;
+	  border-radius: 40px;
+		width: 170px; height: 40px;
+		border-width: 3px;
+		border-color: royalblue;
+		background-color: dodgerblue;
+		color: white;
+	}
+	.btn:hover{
+	  background-color: indianred;
+	  border-color: lightcoral;
+	}
+
+	.imgfondo{
+		text-align: center;
+		width: 1200;
+		height: 675;
+		background-image: "IMG/fondo.png";
+	}
+
+	.aprobado{
+		text-align: center;
+		width: 150;
+		height: 145;
+	}
+
+	.oops{
+		text-align: center;
+		width: 400;
+		height: 314;
+	}
+
+	.divf1{
+	  position: relative;
+	  transform: translateY(10%);
+	  z-index: 1;
+	  text-align: center;
+	}
+
+	}
